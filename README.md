@@ -33,7 +33,7 @@ O portfólio possui:
 
 A página principal do portfólio foi desenvolvida utilizando componentes React dentro do Next.js.
 
-O conteúdo foi organizado em diferentes seções, utilizando HTML e JSX para a estrutura da página e CSS para a estilização.
+O conteúdo foi organizado em diferentes seções utilizando componentes React e JSX para estruturar a interface, enquanto o CSS foi utilizado para a estilização.
 
 As imagens utilizadas no projeto ficam armazenadas dentro da pasta `public`.
 
