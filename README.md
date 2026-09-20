@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio - Maria Clara de Oliveira
 
-## Getting Started
+Este projeto é um portfólio pessoal desenvolvido com Next.js e React para a disciplina de Programação Web Mobile.
 
-First, run the development server:
+O objetivo do projeto é apresentar informações acadêmicas, habilidades, projetos, certificados e formas de contato, além de incluir uma página extra com um jogo da forca.
+
+## Tecnologias utilizadas
+
+- Next.js
+- React
+- JavaScript
+- HTML
+- CSS
+- Git
+- GitHub
+- Vercel
+
+## Funcionalidades
+
+O portfólio possui:
+
+- Página inicial de apresentação
+- Seção "Sobre mim"
+- Seção de habilidades
+- Seção de projetos
+- Seção de certificados
+- Seção de contato
+- Navegação entre as seções da página
+- Layout responsivo para diferentes tamanhos de tela
+- Página extra com jogo da forca
+
+## Estrutura do projeto
+
+A página principal do portfólio foi desenvolvida utilizando componentes React dentro do Next.js.
+
+O conteúdo foi organizado em diferentes seções, utilizando HTML e JSX para a estrutura da página e CSS para a estilização.
+
+As imagens utilizadas no projeto ficam armazenadas dentro da pasta `public`.
+
+A navegação da página utiliza links internos para acessar seções como:
+
+- Início
+- Sobre
+- Habilidades
+- Projetos
+- Certificados
+- Contato
+
+## Jogo da Forca
+
+O projeto também possui uma página com um jogo da forca.
+
+O jogo utiliza palavras relacionadas a alimentos e possui mais de 30 palavras disponíveis para sorteio.
+
+### Funcionalidades do jogo
+
+- Sorteio aleatório de palavras
+- Exibição das letras ocultas
+- Teclado virtual
+- Registro das letras já utilizadas
+- Controle de tentativas
+- Identificação de acertos e erros
+- Identificação de vitória
+- Identificação de derrota
+- Revelação da palavra ao perder
+- Botão para iniciar uma nova partida
+
+## Lógica do jogo
+
+Ao iniciar uma partida, uma palavra é escolhida aleatoriamente.
+
+O jogador seleciona letras através do teclado virtual.
+
+Quando uma letra é escolhida, o sistema verifica se ela existe na palavra.
+
+Se a letra estiver correta, ela é exibida na posição correspondente.
+
+Se a letra estiver incorreta, uma tentativa é contabilizada como erro.
+
+O jogo termina quando todas as letras são descobertas ou quando o jogador atinge o limite de erros.
+
+Os estados do React são utilizados para controlar informações como:
+
+- Palavra sorteada
+- Letras utilizadas
+- Quantidade de erros
+- Situação atual da partida
+
+## Como executar o projeto
+
+Primeiro, clone o repositório:
+
+```bash
+git clone https://github.com/Clara-Barbosa/portfolio-clara.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd portfolio-clara
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Depois execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Autora
 
-## Learn More
+Maria Clara de Oliveira
 
-To learn more about Next.js, take a look at the following resources:
+GitHub: https://github.com/Clara-Barbosa
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+LinkedIn: https://www.linkedin.com/in/maria-clara-de-oliveira-barbosa-07457b364
