@@ -70,7 +70,6 @@ a {
 .menu {
   display: flex;
   align-items: center;
-
   gap: 25px;
 }
 
@@ -308,7 +307,6 @@ a {
 
   object-fit: cover;
 
-  /* Ajusta o enquadramento sem distorcer */
   object-position: center center;
 }
 
@@ -847,12 +845,39 @@ a {
 ========================= */
 
 @media (max-width: 900px) {
+  .header-container {
+    height: auto;
+
+    padding: 12px 20px;
+
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10px;
+  }
+
   .menu {
-    display: none;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px 18px;
+  }
+
+  .menu a {
+    font-size: 12px;
+  }
+
+  .menu a::after {
+    bottom: -4px;
   }
 
   .hero {
-    padding-top: 125px;
+    padding-top: 175px;
   }
 
   .hero-container,
@@ -916,19 +941,29 @@ a {
 
 @media (max-width: 500px) {
   .header-container {
-    height: 68px;
+    height: auto;
 
-    padding: 0 20px;
+    padding: 10px 14px;
+
+    gap: 8px;
   }
 
   .logo {
     font-size: 31px;
   }
 
+  .menu {
+    gap: 8px 13px;
+  }
+
+  .menu a {
+    font-size: 11px;
+  }
+
   .hero {
     min-height: auto;
 
-    padding: 115px 20px 70px;
+    padding: 185px 20px 70px;
   }
 
   .hero-content h1 {
@@ -943,6 +978,15 @@ a {
 
   .hero-description {
     font-size: 14px;
+  }
+
+  .hero-buttons {
+    gap: 10px;
+  }
+
+  .button-primary,
+  .button-secondary {
+    padding: 12px 20px;
   }
 
   .photo-frame {

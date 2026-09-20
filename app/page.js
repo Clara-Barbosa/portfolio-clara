@@ -128,33 +128,25 @@ export default function Home() {
               <div className="about-cards">
                 <div className="about-card">
                   <span className="about-icon">🎓</span>
-
                   <p>FORMAÇÃO</p>
-
                   <strong>Ciência da Computação</strong>
                 </div>
 
                 <div className="about-card">
                   <span className="about-icon">📍</span>
-
                   <p>LOCALIZAÇÃO</p>
-
                   <strong>Recife, Pernambuco</strong>
                 </div>
 
                 <div className="about-card">
                   <span className="about-icon">💼</span>
-
                   <p>OBJETIVO</p>
-
                   <strong>Oportunidade na área de tecnologia</strong>
                 </div>
 
                 <div className="about-card">
                   <span className="about-icon">🌐</span>
-
                   <p>IDIOMAS</p>
-
                   <strong>Português • Inglês A1</strong>
                 </div>
               </div>
@@ -379,7 +371,6 @@ export default function Home() {
             <div className="certificates-list">
               <div className="certificate-card">
                 <span className="certificate-number">01</span>
-
                 <div>
                   <h3>Técnico em Redes de Computadores</h3>
                   <p>ETE Governador Eduardo Campos</p>
@@ -388,7 +379,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">02</span>
-
                 <div>
                   <h3>Programação Orientada a Objetos</h3>
                   <p>Em andamento</p>
@@ -397,7 +387,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">03</span>
-
                 <div>
                   <h3>Oratória</h3>
                   <p>Grupo Voitto</p>
@@ -406,7 +395,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">04</span>
-
                 <div>
                   <h3>HTML5</h3>
                   <p>Em andamento</p>
@@ -415,7 +403,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">05</span>
-
                 <div>
                   <h3>Algoritmos e Aprendizado de Máquina</h3>
                   <p>DIO</p>
@@ -424,7 +411,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">06</span>
-
                 <div>
                   <h3>Processamento e Limpeza de Dados em Python</h3>
                   <p>DIO</p>
@@ -433,7 +419,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">07</span>
-
                 <div>
                   <h3>Processamento de Linguagem Neural</h3>
                   <p>DIO</p>
@@ -442,7 +427,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">08</span>
-
                 <div>
                   <h3>Aplicações Práticas de Inteligência Artificial</h3>
                   <p>DIO</p>
@@ -451,7 +435,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">09</span>
-
                 <div>
                   <h3>Introdução à Engenharia de Prompts</h3>
                   <p>DIO</p>
@@ -460,7 +443,6 @@ export default function Home() {
 
               <div className="certificate-card">
                 <span className="certificate-number">10</span>
-
                 <div>
                   <h3>Introdução a Banco de Dados Relacionais</h3>
                   <p>DIO</p>
@@ -503,10 +485,7 @@ export default function Home() {
 
                   <div>
                     <p>EMAIL</p>
-
-                    <strong>
-                      mariaclarabarbosawork@gmail.com
-                    </strong>
+                    <strong>mariaclarabarbosawork@gmail.com</strong>
                   </div>
                 </a>
 
@@ -520,7 +499,6 @@ export default function Home() {
 
                   <div>
                     <p>LINKEDIN</p>
-
                     <strong>Maria Clara de Oliveira</strong>
                   </div>
                 </a>
@@ -535,7 +513,6 @@ export default function Home() {
 
                   <div>
                     <p>GITHUB</p>
-
                     <strong>Clara-Barbosa</strong>
                   </div>
                 </a>
@@ -555,9 +532,7 @@ export default function Home() {
             MC
           </a>
 
-          <p>
-            Maria Clara de Oliveira • Ciência da Computação
-          </p>
+          <p>Maria Clara de Oliveira • Ciência da Computação</p>
 
           <a href="#inicio" className="back-to-top">
             Voltar ao início ↑
